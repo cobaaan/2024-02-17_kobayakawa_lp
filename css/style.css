@@ -31,28 +31,31 @@ a {
     margin-right: 20px;
 }
 
+
+
 .main {
     width: 100%;
     height: 100%;
 }
 
 .main__img {
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     display: block;
 }
 
 .main__text {
     width: 100%;
-    padding-left: 38%;
-    margin-top: -25%;
+    height: 100%;
+    padding-left: 17%;
+    margin-top: -33%;
 }
 
 .main__text-ttl {
     font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
+    font-size: 5vw;
     color: #b33e5c;
 }
 
@@ -62,7 +65,7 @@ a {
 
 .main__text-top {
     color: #b33e5c;
-    font-size: 24px;
+    font-size: 1.8vw;
     margin-top: 50px;
 }
 
@@ -72,8 +75,9 @@ a {
 
 .main__text-bottom {
     color: #666;
-    line-height: 39px;
-    font-weight: bold;
+    line-height: 20px;
+    font-size: 1.2vw;
+    margin-top: 6px;
 }
 
 
@@ -125,7 +129,7 @@ a {
 }
 
 .news__table-content {
-    font-size: 20px;
+    font-size: 1.4vw;
     border-bottom: 1px solid #666;
     text-align: center;
 }
@@ -141,7 +145,8 @@ a {
     background-color: #b33e5c;
     display: inline-block;
     border-radius: 24px;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 20px 5px 20px;
+    margin-left: 2vw;
  }
 
 .news__table-text {
@@ -181,7 +186,7 @@ a {
 }
 
 .about__content-text {
-    font-size: 20px;
+    font-size: 1.3vw;
     color: #666;
     text-align: left;
 }
@@ -196,7 +201,7 @@ a {
 }
 
 .about__img {
-    width: 400px;
+    width: 30vw;
 }
 
 
@@ -240,7 +245,7 @@ a {
 
 .service__content-left-img {
     width: 20%;
-    margin-top: 20%;
+    margin-top: 15vh;
 }
 
 .service__content-left-text-ttl {
@@ -250,6 +255,7 @@ a {
 .service__content-left-text-description {
     width: 60%;
     margin: 4% auto;
+    text-align: left;
 }
 
 .service__content-right-top {
@@ -262,15 +268,18 @@ a {
 
 .service__content-right-top-img {
     width: 50%;
-    margin-top: 15%;
+    margin-top: 7vh;
 }
 
 .service__content-right-top-text-ttl {
-    margin-top: 30%;
+    margin-top: 5vh;
+    margin-right: 3vh;
 }
 
 .service__content-right-top-text-description {
-    margin-top: 10%;
+    margin-top: 12%;
+    margin-right: 3vh;
+    text-align: left;
 }
 
 .service__content-right-bottom {
@@ -283,15 +292,18 @@ a {
 
 .service__content-right-bottom-img {
     width: 50%;
-    margin-top: 15%;
+    margin-top: 7vh;
 }
 
 .service__content-right-bottom-text-ttl {
-    margin-top: 30%;
+    margin-top: 5vh;
+    margin-right: 3vh;
 }
 
 .service__content-right-bottom-text-description {
-    margin-top: 10%;
+    margin-top: 12%;
+    margin-right: 3vh;
+    text-align: left;
 }
 
 .service__text-ttl {
@@ -374,11 +386,12 @@ a {
 }
 
 .blog__flex-content-bottom {
-    margin: 15px auto 30px;
-    width: 80%;
+    margin: 3vw auto 3vw;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     color: #666;
+    font-size: 1.2vw;
 }
 
 .blog__btn {
