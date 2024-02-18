@@ -231,9 +231,10 @@ a {
 
 .service__content {
     width: 100%;
-    height: 100%;
+    height: 32vmax;
     margin: 0 auto;
     text-align: center;
+    border: 3px solid #00ac97;
 }
 
 .service__content-left {
@@ -244,18 +245,21 @@ a {
 }
 
 .service__content-left-img {
-    width: 20%;
-    margin-top: 15vh;
+    width: 13vw;
+    margin-top: 5vh;
 }
 
 .service__content-left-text-ttl {
     margin-top: 10px;
+    font-size: 1.7vw;
 }
 
 .service__content-left-text-description {
-    width: 60%;
+    width: 80%;
     margin: 4% auto;
     text-align: left;
+    font-size: 1.3vw;
+    line-height: 25px;
 }
 
 .service__content-right-top {
@@ -267,19 +271,28 @@ a {
 }
 
 .service__content-right-top-img {
-    width: 50%;
-    margin-top: 7vh;
+    width: 12vw;
+    margin-top: 3vh;
+    margin-left: 1.1vw;
 }
 
+.service__content-right-top-text {
+    margin-left: 1.3vw;
+    margin-top: 1vw;
+    text-align: left;
+}
+
+
 .service__content-right-top-text-ttl {
-    margin-top: 5vh;
-    margin-right: 3vh;
+    margin-top: 4.5vh;
+    font-size: 1.7vw;
 }
 
 .service__content-right-top-text-description {
-    margin-top: 12%;
-    margin-right: 3vh;
+    width: 110%;
+    margin-top: 10%;
     text-align: left;
+    font-size: 1.3vw;
 }
 
 .service__content-right-bottom {
@@ -291,25 +304,31 @@ a {
 }
 
 .service__content-right-bottom-img {
-    width: 50%;
-    margin-top: 7vh;
+    width: 12vw;
+    margin-top: 3vh;
+    margin-left: 1.1vw;
+}
+
+.service__content-right-bottom-text {
+    margin-left: 1.3vw;
+    margin-top: 1.8vw;
+    text-align: left;
 }
 
 .service__content-right-bottom-text-ttl {
-    margin-top: 5vh;
-    margin-right: 3vh;
+    margin-top: 4.5vh;
+    font-size: 1.7vw;
 }
 
 .service__content-right-bottom-text-description {
-    margin-top: 12%;
-    margin-right: 3vh;
+    width: 110%;
+    margin-top: 10%;
     text-align: left;
+    font-size: 1.3vw;
 }
 
 .service__text-ttl {
     color: #fff;
-    font-size: 20px;
-    font-weight: bold;
 }
 
 .service__text-decription {
@@ -380,9 +399,10 @@ a {
 
 .blog__flex-content-text {
     width: 80%;
-    color: #333;
+    color: #666;
     margin: 15px auto 0;
     line-height: 25px;
+    font-size: 1.4vw;
 }
 
 .blog__flex-content-bottom {
